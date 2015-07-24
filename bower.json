@@ -1,0 +1,25 @@
+{
+  "name": "angular-mandrill",
+  "version": "0.0.0",
+  "dependencies": {
+    "angular": "~1.4.3"
+  },
+  "main": "dist/angular-mandrill.js",
+  "ignore": [
+    "app",
+    "test",
+    "node_modules",
+    "bower_components",
+    ".bowerrc",
+    ".tmp",
+    ".gitignore",
+    ".gitattributes",
+    ".jshintignore",
+    ".jshintrc",
+    ".travis.yml",
+    ".editorconfig",
+    "gruntfile.js",
+    "README.md"
+  ],
+  "appPath": "app"
+}

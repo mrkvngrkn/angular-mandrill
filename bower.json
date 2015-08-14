@@ -1,10 +1,19 @@
 {
   "name": "angular-mandrill",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {
     "angular": "~1.4.3"
   },
   "main": "dist/angular-mandrill.js",
+  "keywords": [
+    "mandrill",
+    "mailchimp",
+    "angular",
+    "email",
+    "client",
+    "json",
+    "api"
+  ],
   "ignore": [
     "app",
     "test",
@@ -18,7 +27,7 @@
     ".jshintrc",
     ".travis.yml",
     ".editorconfig",
-    "gruntfile.js",
+    "Gruntfile.js",
     "README.md"
   ],
   "appPath": "app"

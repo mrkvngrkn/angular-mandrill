@@ -30,6 +30,10 @@
             var sendData = angular.extend({}, data, userData);
             return $http.post(baseUrl + 'messages/send.json', sendData);
           };
+          mandrill.messages.sendTemplate = function(userData) {
+            var sendData = angular.extend({}, data, userData);
+            return $http.post(baseUrl + 'messages/send-template.json', sendData);
+          };
 
           return mandrill;
         }]

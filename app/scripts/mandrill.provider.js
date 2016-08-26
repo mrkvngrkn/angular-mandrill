@@ -26,13 +26,13 @@
 
           };
           mandrill.messages = {};
-          mandrill.messages.send = function (userData) {
+          mandrill.messages.send = function (userData, config = {}) {
             var sendData = angular.extend({}, data, userData);
-            return $http.post(URL.messages.send, sendData);
+            return $http.post(URL.messages.send, sendData, config);
           };
-          mandrill.messages.sendTemplate = function(userData) {
+          mandrill.messages.sendTemplate = function(userData, config = {}) {
             var sendData = angular.extend({}, data, userData);
-            return $http.post(baseUrl + 'messages/send-template.json', sendData);
+            return $http.post(baseUrl + 'messages/send-template.json', sendData, config);
           };
 
           return mandrill;
